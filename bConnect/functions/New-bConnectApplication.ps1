@@ -19,7 +19,7 @@
 	.PARAMETER Comment
 		A comment to apply to the application.
 	
-	.PARAMETER ParentGuid
+	.PARAMETER ParentId
 		The Guid of the container to create the application in..
 	
 	.PARAMETER Version
@@ -73,7 +73,7 @@
 		$Comment,
 		
 		[string]
-		$ParentGuid,
+		$ParentId,
 		
 		[string]
 		$Version,
@@ -121,7 +121,7 @@
 		}
 		
 		if ($Comment) { $body['Comment'] = $Comment }
-		if ($ParentGuid) { $body['ParentGuid'] = $ParentGuid }
+		if ($ParentId) { $body['ParentId'] = $ParentId }
 		if ($Version) { $body['Version'] = $Version }
 		if ($Category) { $body['Category'] = $Category }
 		if ($InstallationData) { $body['Installation'] = $InstallationData }
