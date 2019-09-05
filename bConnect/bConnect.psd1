@@ -89,6 +89,7 @@
 		'Get-bConnectJob',
 		'Get-bConnectJobInstance',
 		'Get-bConnectOrgUnit',
+		'Get-bConnectAllOrgUnits',
 		'Get-bConnectSoftwareScanRule',
 		'Get-bConnectStaticGroup',
 		'Get-bConnectVariable',
